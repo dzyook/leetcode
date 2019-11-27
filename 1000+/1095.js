@@ -33,18 +33,6 @@ function Mountain(arr){
 function findIndex(target, arr) {
   var MountainArray = new Mountain(arr)
   const length = MountainArray.length()
-  let hasFind = true
-  
-  let index = -1
-  let num = length % 2 === 0 ? length/2 : length/2 + 0.5
-  if(arr[num] === )
-  if(arr[num1] < ) {
-    if(arr[num1] === target) return num1
-    if(arr[num2] === target) return num2
-    if(arr[num2] < target)
-
-  }
-  for()
 
   return index
 }

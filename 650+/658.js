@@ -46,5 +46,5 @@ var findClosestElements = function (arr, k, x) {
     return upArr.map(i => {
         if (i.key === 'up') return i.value + x
         else return x - i.value
-    }).sort((a, b) => a - b)
+    }).sort((a, b) => a - b) // 还原后排序
 };

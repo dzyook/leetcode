@@ -22,7 +22,6 @@ var isValid = function(s) {
             if (template !== Json[c]) {
                 return false;
             }
-
         } else {
             stack.push(c);
         }

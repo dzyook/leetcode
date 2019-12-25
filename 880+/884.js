@@ -37,3 +37,5 @@ var uncommonFromSentences = function(A, B) {
     }
     return isRepeat(arr)
 };
+// 思路 1 字符串拼接找出不重复的单词
+// 2 拼接数组 找出不重复的项
